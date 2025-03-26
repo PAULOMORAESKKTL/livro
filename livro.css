@@ -30,6 +30,10 @@ header a:hover{
     background-color: white;
     color: green;
 }
+.quarto a{
+    background-color: green;
+    color: white;
+}
 body h1, h2{
     color: green;
     margin-top: 40px;

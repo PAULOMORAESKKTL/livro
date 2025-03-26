@@ -30,7 +30,7 @@ header a:hover{
     background-color: white;
     color: green;
 }
-.quarto a{
+.quarto a:hover{
     background-color: green;
     color: white;
 }

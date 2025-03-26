@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header a{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    width: 10%;
+    padding: 10px 30px;
+}
+.link{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    width: 10%;
+    padding: 10px 30px;
+}
+header a:hover{
+    background-color: green;
+    color: white;
+}
+.quarto a{
+    background-color: white;
+    color: green;
+}
+body h1, h2{
+    color: green;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Tahoma', sans-serif;
+}
+body p{
+    width: 110vh;
+    font-size: 18px;
+}
+header{
+    padding: 60px;
+    border-bottom: solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.um{
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.um span{
+    font-weight: bold;
+}
+.dois{
+    padding: 60px;
+    border-bottom: solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.quarto{
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+}
+footer{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: dotted 1px;
+    position: relative;
+}
+footer img{
+    position: absolute;
+    top: 2%;
+    right: -70%;
+width: 25px;
+height: 25px;
+}
+footer p{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(26, 95, 32);
+    }
